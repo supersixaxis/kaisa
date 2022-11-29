@@ -1,0 +1,117 @@
+.primaryColor{
+    color:#FF6060;
+}
+
+.LogementWrapper{
+    margin-top:20px ;
+    margin-bottom: 100px;
+}
+
+.appartementTitle{
+    margin-bottom: -5px;
+    font-weight: 100;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.host-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+.imageHost {
+    border-radius: 100%;
+    width: 64px;
+
+}
+
+.tag-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.appartementListe {
+    padding-left: 0px;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.appartementTags{
+    background-color: #FF6060;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    border-radius: 20px;
+}
+
+.appartementEquipements{
+    list-style-type: none;
+
+}
+
+.wrap {
+    display: flex;
+}
+
+
+.dropdownWrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.dropDownLogement {
+    width: 50%;
+}
+
+@media (max-width: 480px) { 
+    .appartementTitle{
+        font-size:18px ;
+    }
+    .header-flex {
+        display: block;
+    }
+    .host-flex {
+        gap: 5px;
+        margin-top: 20px;
+        margin-bottom: -30px;
+        position: absolute;
+        right: 5px;
+        top: 475px;
+    }
+
+    .imageHost {
+        width: 45px;
+    
+    }
+    .tag-flex{
+        flex-direction: column;
+
+    }
+    .appartementTags{
+        padding: 4px 15px 4px 14px;
+        margin-bottom: 10px;
+    }
+    .star img {
+        width: 15px;
+    }
+    .dropdownWrapper {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .dropDownLogement {
+        width: 100%;
+    }
+    .left-arrow {
+        width: 30px;
+    }
+    .right-arrow {
+        width: 30px;
+    }
+
+}

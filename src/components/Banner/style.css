@@ -1,0 +1,39 @@
+.bannerWrapper {
+margin-top: 40px;
+position: relative;
+margin-bottom: 50px;
+}
+.bannerP{
+color: white;
+position: absolute;
+font-size: 48px;
+top: 50px;
+left: 300px;
+}
+
+
+.bannerImage {
+display: block;
+margin: auto;
+width: 100%;
+border-radius: 20px;
+object-fit: cover;
+}
+
+@media (max-width: 480px) { 
+    .bannerImage {
+        height: 223px;
+    
+        
+    }
+    .bannerWrapper {
+        margin-bottom: 30px;
+    }
+
+    .bannerP{
+
+        font-size: 24px;
+        top: 70px;
+        left: 10px;
+        }
+ }

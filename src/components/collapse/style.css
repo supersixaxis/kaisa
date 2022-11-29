@@ -1,0 +1,45 @@
+
+.collapseTitle {
+    background-color: #FF6060 ;
+    position: relative;
+    border: 0.5px solid #cdcdcd;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 15px 20px;
+    margin-top: 30px;
+    font-size: 24px;
+    width: 100%;
+    align-items: center;
+  }
+ 
+  .collapseP {
+    font-size: 24px;
+    color: #FF6060;
+    background-color: #f7f7f7 ;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    width: 98%;
+
+  }
+  .content:last-child {
+    border-radius: 4px;
+  }
+
+  .ToggleIcon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 15px
+  }
+
+  @media (max-width: 480px) {
+    .collapseP {
+      font-size: 14px;
+    }
+  }
+
